@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lpincoli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lpincoli <lpincoli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 23:14:47 by lpincoli          #+#    #+#             */
-/*   Updated: 2022/10/07 23:16:20 by lpincoli         ###   ########.fr       */
+/*   Updated: 2023/06/18 14:09:45 by lpincoli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	if (!s)
-		return ;
-	ft_putstr_fd(s, fd);
-	ft_putchar_fd('\n', fd);
+	int	count;
+
+	count = 1;
+	ft_putstr_fd(s, fd, &count);
+	ft_putchar_fd('\n', fd, &count);
 }
