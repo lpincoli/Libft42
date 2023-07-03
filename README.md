@@ -1,4 +1,4 @@
-📚 <h1>Libft 42 Project</h1>
+<h1>Libft 42 Project 📚</h1>
 Creating a lib of simple C functions
 <h2>Overview</h2>
 <p>The primary objective of this project is to recreate a variety of standard C library functions, gaining a deeper understanding of fundamental C concepts and data types while building our own personalized library of useful functions.</p>
