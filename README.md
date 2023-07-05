@@ -22,6 +22,9 @@ Creating a lib of simple C functions
   <li>Linked list manipulation functions, as part of the bonus section</li>
 </ul>
 <p>Please note that all functions mirror their libc counterparts in terms of functionality and interface but are prefixed with 'ft_' to distinguish them.</p>
+
+<h2>Subject</h2>
+
 <p>For more information about the project, read the subject file.</p>
 <hr>
 <p>Enjoy utilizing my Libft implementation in your coding journey! :)</p>
